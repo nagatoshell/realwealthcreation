@@ -4,7 +4,7 @@ import Header from '../Home/header';
 import HelpSection from '../Home/hero2';
 import Promotions from '../components/promotions';
 import RatesSection from '../components/ratesection';
-import SupportBot from '../components/support';
+// import SupportBot from '../components/support';
 import CoinGeckoWidget from '../components/coingecko';
 import PlatformOverview from '../components/PlatformOverview';
 import TradingWidgets from '../components/tradingwidgets';
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
       <PlatformOverview/>
       <TradingWidgets/>
       <InvestmentPlans/>
-      <SupportBot />
+      {/* <SupportBot /> */}
       <Footer />
     </>
   );

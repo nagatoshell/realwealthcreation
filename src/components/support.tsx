@@ -31,7 +31,7 @@ const SupportBot = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-[100px] left-5 z-[9999] flex flex-col items-center space-y-1">
+    <div className="fixed top-[80px] left-5 z-[9999] flex flex-col items-center space-y-1">
       {/* <button
         onClick={() =>
           (window.location.href = "mailto:danbraunstein57@gmail.com")

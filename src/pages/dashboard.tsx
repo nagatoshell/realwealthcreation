@@ -20,7 +20,7 @@ import { Plus } from "lucide-react";
 import person from "../assets/person_1.jpg";
 import BottomNav from "./stickyNav";
 import BottomNav2 from "./bottomnav2";
-import SupportBot from "../components/support";
+// import SupportBot from "../components/support";
 import CoinGeckoWidget from "../components/coingecko";
 
 interface Crypto {
@@ -296,7 +296,7 @@ const Dashboard = () => {
   </button>
 </div> */}
 
-        <SupportBot />
+        {/* <SupportBot /> */}
 
         {/* Main Content */}
         <div className="p-4 space-y-4 bg-gray-100 ">
